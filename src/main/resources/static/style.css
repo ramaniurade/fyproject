@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Cambria,Georgia,serif;
+}
+.background{
+    background:rgba(0, 0, 0, 0.5) url(bg.jpg);
+    background-size:cover;
+    background-blend-mode: darken;
+    padding: 4%;
+align-items: center;
+justify-content: center;
+
+}
+.firstSection{
+    height:83.7vh;
+}
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    max-width:50%;
+    margin:auto;
+    padding:3%;
+    padding-top: 50px;
+    height:80%;
+}
+.backg{
+    background: rgb(245 245 245 / 15%);
+    border-radius: 5%;
+}
+
+.text-big{
+    font-size: 48px;
+    color: #ff4444;
+font-weight: bold;
+text-align: center;
+
+
+}
+.text-small{
+    font-size: 30px;
+    color: #ff4444;
+    text-align: center;
+    font-weight: 600;
+    padding: 1%;
+}
+.text-sm{
+    font-size: 25px;
+    color: #ff9494;
+    text-align: center;
+    font-weight: 600;
+    padding: 1%;
+    width: 60%;
+    padding-left: 140px;
+    text-align: center;
+}
+.btn1 {
+    padding: 6px;
+    margin: 31px 240px;
+    font-size: 23px;
+    background: transparent;
+    color: #f1b3b3;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.btn1:hover{
+    text-decoration: none;
+    color: #e69292;
+}
+
