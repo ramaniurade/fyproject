@@ -10,7 +10,10 @@
 <div class=" container" id="container">
 <div class="form-container sign-up-container">
 
-<form action="connect.php" method ="post">
+<form id="signUpForm" action="./saveUser/submit" method ="post">
+	<input type ="button" class ="btn btn-success"
+	       value ="SignUp" onClick= "$('#signUpForm').submit()">
+	
 	<h1>Create Account</h1>
 	<!-- <div class="social-container">
 		<a href="#" class="social"><i class="fa fa-facebook"></i></a>
